@@ -1,0 +1,40 @@
+.Item {
+  display: inline-block;
+  padding: 25px;
+  margin: 25px;
+  width: 250px;
+  height: 500px;
+  vertical-align: top;
+}
+
+.Item .image img {
+  height: 330px;
+  width: 250px;
+  border-radius: 25px 5px 5px 25px;
+  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.7));
+}
+
+.Item .title {
+  width: 250px;
+  font-weight: bold;
+  font-size: 18px;
+  /*height: 60px;*/
+  margin: 10px;
+}
+
+.Item .actions {
+  width: 100%;
+  border-top: solid 1px #bbb;
+  padding: 5px 0;
+  margin-top: 15px;
+}
+
+.Item .actions button {
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(232, 78, 78);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  width: 100%;
+}
